@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'package:food_delivery/utils/colors.dart';
 import 'package:food_delivery/utils/dimetion.dart';
@@ -224,3 +225,6 @@ class _FoodPageBodyState extends State<FoodPageBody> {
     );
   }
 }
+=======
+
+>>>>>>> d261349c2075f41367ff1b61e7a8acce050e71d7

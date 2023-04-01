@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery/home/food_page_body.dart';
 import 'package:food_delivery/utils/colors.dart';
 import 'package:food_delivery/utils/dimetion.dart';
 import 'package:food_delivery/widgets/big_text.dart';
@@ -40,7 +39,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                       Row(
                         children: [
                           SmallText(
-                            text: "Nosy Be",
+                            text: "Antananarivo",
                             color: Colors.black54,
                           ),
                           Icon(
@@ -71,7 +70,6 @@ class _MainFoodPageState extends State<MainFoodPage> {
               ),
             ),
           ),
-          const FoodPageBody(),
         ],
       ),
     );
