@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class Dimentions {
+class Dimensions {
   static double screenHeight = Get.context!.height;
   static double screenWidth = Get.context!.width;
 
@@ -39,5 +39,5 @@ class Dimentions {
   static double radius30 = height30;
 
   //icon size
-  static double iconSize24 = screenHeight / 34;
+  static double iconSize24 = screenHeight / 34.79;
 }
