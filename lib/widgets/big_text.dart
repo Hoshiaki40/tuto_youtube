@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
-import 'package:food_delivery/utils/dimetion.dart';
+import 'package:food_delivery/utils/dimesion.dart';
 
 class BigText extends StatelessWidget {
   Color? color;
@@ -26,7 +26,7 @@ class BigText extends StatelessWidget {
         color: color,
         fontWeight: FontWeight.w400,
         fontFamily: 'Roboto',
-        fontSize: size == 0 ? Dimentions.font20 : size,
+        fontSize: size == 0 ? Dimensions.font20 : size,
       ),
     );
   }
