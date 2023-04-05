@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/utils/colors.dart';
-import 'package:food_delivery/utils/dimetion.dart';
+import 'package:food_delivery/utils/dimesion.dart';
 import 'package:food_delivery/widgets/big_text.dart';
 import 'package:food_delivery/widgets/small_text.dart';
 
@@ -20,12 +20,12 @@ class _MainFoodPageState extends State<MainFoodPage> {
           Container(
             child: Container(
               margin: EdgeInsets.only(
-                top: Dimentions.height45,
-                bottom: Dimentions.height15,
+                top: Dimensions.height45,
+                bottom: Dimensions.height15,
               ),
               padding: EdgeInsets.only(
-                left: Dimentions.width20,
-                right: Dimentions.width20,
+                left: Dimensions.width20,
+                right: Dimensions.width20,
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -44,7 +44,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                           ),
                           Icon(
                             Icons.arrow_drop_down_rounded,
-                            size: Dimentions.iconSize24,
+                            size: Dimensions.iconSize24,
                           ),
                         ],
                       ),
@@ -52,16 +52,16 @@ class _MainFoodPageState extends State<MainFoodPage> {
                   ),
                   Center(
                     child: Container(
-                      width: Dimentions.width45,
-                      height: Dimentions.height45,
+                      width: Dimensions.width45,
+                      height: Dimensions.height45,
                       child: Icon(
                         Icons.search,
                         color: Colors.white,
-                        size: Dimentions.iconSize24,
+                        size: Dimensions.iconSize24,
                       ),
                       decoration: BoxDecoration(
                         borderRadius:
-                            BorderRadius.circular(Dimentions.radius15),
+                            BorderRadius.circular(Dimensions.radius15),
                         color: AppColors.mainColor,
                       ),
                     ),
